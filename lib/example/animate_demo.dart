@@ -119,6 +119,7 @@ class _AnimateDemoState extends State<AnimateDemo>
               height: moveBox.block,
               decoration: BoxDecoration(
                 color: moveBox.color,
+                borderRadius: BorderRadius.circular(moveBox.block / 2),
               ),
             ),
           ),
